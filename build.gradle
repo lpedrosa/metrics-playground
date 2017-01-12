@@ -1,0 +1,18 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.21'
+    compile 'org.slf4j:slf4j-simple:1.7.21'
+
+    compile 'io.dropwizard.metrics:metrics-core:3.1.0'
+
+    testCompile 'junit:junit:4.12'
+}
+
+apply plugin: 'application'
+
+mainClassName = 'com.github.lpedrosa.Main'

@@ -1,0 +1,3 @@
+# metrics-example
+
+Playing around with dropwizard metrics...
